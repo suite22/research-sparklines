@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sparklines for Research Datasets</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/c3.css">
+
+	<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>	 -->
+	<script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+	<script src="js/c3.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Overview</h2>
+      	<p>Simple mockup of what sparklines might look like.</p>
+		<div class="row">
+        	<div class="col-md-4"><h3>Name</h3></div>
+        	<div class="col-md-4"><h3>Data Type</h3></div>
+        	<div class="col-md-4"><h3>Sample: AL vs OR</h3></div>
+      	</div>
+      	<div class="row">
+        	<div class="col-md-4"><h4>CCDF Allocations 2014</h4></div>
+        	<div class="col-md-4"></div>
+        	<div class="col-md-4"></div>
+      	</div>
+      	<div class="row">
+        	<div class="col-md-4"> - Mandatory</div>
+        	<div class="col-md-4">$</div>
+        	<div class="col-md-4" id="chartMandatory"></div>
+      	</div>
+      	<div class="row">
+        	<div class="col-md-4"> - Federal Share of Matching</div>
+        	<div class="col-md-4">$</div>
+        	<div class="col-md-4" id="chartFedMatch"></div>
+      	</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
