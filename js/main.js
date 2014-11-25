@@ -1,4 +1,4 @@
-var chart = c3.generate({
+var chart1 = c3.generate({
     bindto: '#chartMandatory',
     size: { 
     	width: 50, 
@@ -23,7 +23,7 @@ var chart = c3.generate({
     }
 });
 
-var chart = c3.generate({
+var chart2 = c3.generate({
     bindto: '#chartFedMatch',
     size: { width: 50, height: 50 },
     data: {
@@ -41,5 +41,17 @@ var chart = c3.generate({
     axis: { x: { show: false }, y: { show: false } },
     legend: {
         show: false
+    }
+});
+
+var chart3 = c3.generate({
+	bindto: '#gaugeFMAPRate',
+	size: { width: 75, height: 75 },
+    data: {
+      columns: [
+        ['AL', 68.12],
+        ['OR', 63.14]
+      ],
+        type: 'gauge',
     }
 });
