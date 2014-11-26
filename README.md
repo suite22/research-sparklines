@@ -30,6 +30,7 @@ I want to be able to see quick previews for metadata about each dataset in a col
 * Make this more reusable
 * Pre-load data for speed
 * Use .filter throughout each chart to limit calling the data over and over
+* Dynamically create rows from d3 - has to be an array of arrays. 
 
 # Open Questions? 
 ## Would this make more sense as a graph database? 

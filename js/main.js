@@ -73,3 +73,15 @@ var chart4 = c3.generate({
     //     show: false
     // }
 });
+
+// var chart5 = c3.generate({
+// 	bindto: '#chartBubble',
+// 	size: { width: 75, height: 75 },
+//     data: {
+//       columns: [
+//         ['AL', 68.12],
+//         ['OR', 63.14]
+//       ],
+//         type: 'gauge',
+//     }
+// });
