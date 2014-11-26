@@ -20,6 +20,9 @@ I want to be able to see quick previews for metadata about each dataset in a col
 
 ![mockup](images/version02.png)
 
+## 0.3
+1. Pull data from tsv to generate the charts.
+
 ## Future
 * Sort by underlying value
 * Change / add which items are being sampled in the preview columns

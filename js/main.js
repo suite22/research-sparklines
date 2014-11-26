@@ -55,3 +55,21 @@ var chart3 = c3.generate({
         type: 'gauge',
     }
 });
+
+var chart4 = c3.generate({
+    bindto: '#chartFedMatchCSV',
+    size: { width: 500, height: 500 },
+    data: {
+      url: 'data/CCDF/FY14_refined.csv',
+      type: 'bar'
+    },
+        bar: {
+        width: {
+            ratio: .98 // this makes bar width 50% of length between ticks
+        }
+    },
+    //axis: { x: { show: false }, y: { show: false } },
+    // legend: {
+    //     show: false
+    // }
+});
