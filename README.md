@@ -21,12 +21,15 @@ I want to be able to see quick previews for metadata about each dataset in a col
 ![mockup](images/version02.png)
 
 ## 0.3
-1. Pull data from tsv to generate the charts.
+1. Pull data from json to generate the charts.
 
 ## Future
-* Sort by underlying value
+* Sort by underlying value (use tristen/tablesort on GitHub)
 * Change / add which items are being sampled in the preview columns
 * Beautify the layout
+* Make this more reusable
+* Pre-load data for speed
+* Use .filter throughout each chart to limit calling the data over and over
 
 # Open Questions? 
 ## Would this make more sense as a graph database? 
@@ -34,3 +37,6 @@ Because the structure of the datasets is not uniform it could useful to just des
 - http://neo4j.com/graphacademy/online-course/
 
 It's going to take some time to understand how to get a simple example of the ground in neo4j. Sticking with simple dummy data for now.
+
+# Inspiration
+http://www.highcharts.com/demo/sparkline

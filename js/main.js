@@ -60,7 +60,7 @@ var chart4 = c3.generate({
     bindto: '#chartFedMatchCSV',
     size: { width: 500, height: 500 },
     data: {
-      url: 'data/CCDF/FY14_refined.csv',
+      url: 'data/CCDF/FY14_refined.json',
       type: 'bar'
     },
         bar: {
